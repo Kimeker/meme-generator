@@ -29,6 +29,11 @@
     "build:prod": "webpack --mode=production --define-process-env-node-env=production",
     "serve": "webpack serve"
   },
+  "babel": {
+    "presets": [
+      "babel-preset-react-app"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
